@@ -1,0 +1,19 @@
+{
+    "name": "natan/php",
+    "autoload": {
+        "psr-4": {
+            "Natan\\Php\\": "src/"
+        },
+        "files": [
+            "app/controller/UserController.php",
+            "app/model/databaseConfig.php",
+            "app/model/Model.php",
+            "app/model/Users.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
